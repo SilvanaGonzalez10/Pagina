@@ -1,0 +1,159 @@
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body{
+            background-image: url("img/ghost.png");
+            background-size: 100%;
+        }
+
+        .espacio{
+            height: 15px;
+        }
+
+        .espacio2{
+            height: 100px;
+        }
+
+        .container{
+            width: 1000px;
+            background: rgb(119, 117, 125);
+            margin: 0;
+            border-radius: 30px;
+            overflow: hidden;
+            padding: 45px;
+            box-shadow: 6px 6px 10px rgb(0, 0, 0);
+            border-width: 10px;
+            flex: 3;
+            max-width: 80%;
+            box-sizing: border-box;
+        }
+
+        .container2{
+            flex: 1;
+            max-width: 20%;
+            box-sizing: border-box;
+            margin: 260px 0 0 20px;
+        }
+
+        .container2 img{
+            width: 100%;
+            height: auto;
+           display: block;
+        }
+
+        .contenedores{
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            padding: 35px;
+            gap: 20px;
+        }
+
+        .superior{
+            height: 270px;
+            margin-top: 60px;
+        }
+
+        .menu{
+            padding: 50px;
+            margin-bottom: 50px;
+            display: flex;           
+            justify-content: center; 
+ 
+        }
+
+        .opciones{
+            display: flex;           
+            gap: 30px;               
+            padding: 0;
+            margin: 0;
+            list-style: none;
+        }
+
+        .opciones li a{
+            color: rgb(255, 255, 255);
+            padding: 17px;
+            text-decoration: none;
+            border-radius: 10%;
+            background-color: rgb(73, 46, 99);
+            font-size: 15px;
+            font-weight: bold;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        .opciones li a:hover{
+            background: rgb(41, 24, 57);
+        }
+
+        p{
+            font-size: 18px;
+            line-height: 30px;
+        }
+
+        footer{
+            text-align: center;
+            padding: 20px;
+            background-color: #1e1e1e;
+            color: white;
+            border-radius: 5px;
+        }
+
+        footer h4{
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: italic;
+            font-weight: bold;
+        }
+
+        .papas img{
+            width: 300px;
+            height: 300px;
+            border-radius: 20px;
+            margin: 30px;
+        }
+
+        .papas:hover{
+            opacity: 0.8;
+            cursor: pointer;
+        }
+
+        .papa-info{
+            margin: 50px;
+        }
+
+        .emeritus{
+            display: flex;
+            align-items: center;
+            margin: 30px;
+            border: solid;
+        }
+
+        .titulo h2{
+            margin: 20px;
+            flex: 1;
+        }
+
+        .boton{
+            padding: 15px 20px;
+            margin: 20px 0;
+            color: white;
+            background: #60247cdb;
+            border-radius: 5px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 15px;
+            font-weight: bold;
+        }
+
+        .boton:hover{
+            background: #401a52db;
+            cursor: pointer;
+        }
+
+        .regreso img{
+            width: 50px;
+            float: center;
+            margin: 0 155px 0 150px;
+        }
