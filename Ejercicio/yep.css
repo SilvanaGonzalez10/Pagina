@@ -1,0 +1,112 @@
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body{
+            background-color: #ffffff;
+        }
+
+        .container{
+            width: 1200px;
+            background-color: #2196F3;
+            margin: 10px auto;
+        }
+
+        .superior{
+            background-color: #4CAF50;
+            overflow: hidden;
+            padding: 20px;
+        }
+
+        .titulo{
+            color: white;
+            font-size: 15px;
+        }
+
+        h2{
+            font-size: 24px;
+            margin: 10px;
+        }
+
+        .menu{
+            float: left;
+            padding: 25px 0;
+        }
+
+        .opciones li{
+            float: left;
+            list-style: none;
+            font-size: 16px;
+        }
+
+        .opciones li a{
+            color: white;
+            padding: 10px 15px;
+            text-decoration: none;
+            border-radius: 7px;
+            background-color: #388E3C;
+            margin: 0 15px 0 0;
+        }
+
+        .opciones li a:hover{
+            background-color: #2E7D32;
+        }
+
+        .contenido{
+            padding: 20px;
+        }
+
+        .bienvenido{
+            background-color: #FFC107;
+        }
+
+        .destacado{
+            background-color: #FF5722;
+        }
+
+        .noticias{
+            background-color: #9C27B0;
+        }
+
+        .noticias, .bienvenido, .destacado{
+            padding: 10px;
+            margin: 15px 0;
+        }
+
+        .noticias, .destacado{
+            color: white;
+        }
+
+        footer{
+            text-align: center;
+            padding: 20px;
+            background-color: #607D8B;
+            color: white;
+            border-radius: 5px;
+        }
+
+        footer h4{
+            font-style: italic;
+            font-weight: bold;
+        }
+
+        .opciones2 li{
+            list-style: none;
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+
+        .opciones2 li a{
+            display: block;
+            color: white;
+            padding: 10px 15px;
+            text-decoration: none;
+            border-radius: 5px;
+            background-color: #7B1FA2;
+        }
+
+        .opciones2 li a:hover{
+            background-color: #6A1B9A;
+        }
