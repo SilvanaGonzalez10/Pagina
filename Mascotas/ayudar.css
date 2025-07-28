@@ -1,0 +1,191 @@
+*{
+     margin: 0;
+     padding: 0;
+     font-family: "Arial Rounded MT Bold", Arial, sans-serif;
+}
+
+.titulo{
+     color: white;
+     background-color: #6bb8de;
+     padding: 10px;
+     margin: 15px 0;
+     text-align: center;
+     font-size: 35px;
+     font-weight: bold;
+}
+
+body{
+     background: #eeecea;
+}
+
+.imagenB img{
+     width: 1200px;
+}
+
+.container{
+     width: 1200px;
+     background: white;
+     margin: 10px auto;
+}
+
+.texto{
+     padding: 25px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     color: #143f55;
+}
+
+p{
+     line-height: 1.7;
+     font-size: 18px;
+     padding: 10px;
+
+}
+
+.subtitulo{
+     padding: 9px;
+     font-weight: bolder;
+     font-size: 25px;
+}
+
+.superior{
+     background: #6bb8de;
+     overflow: hidden;
+     border-radius: 10px;
+}
+
+.logo img{
+     float: left;
+     width: 300px;
+     padding: 35px 20px;
+}
+
+.menu{
+     float: right;
+     padding: 50px 20px;
+     margin: 10px;
+}
+
+.opciones{
+     display: flex;           
+     gap: 8px;               
+}
+
+.opciones li{
+     float: left;
+     list-style: none;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-size: 20px;
+}
+
+.opciones li a{
+     color: white;
+     padding: 17px;
+     text-decoration: none;
+     background-color: #369acd;
+     border-radius: 5px;
+}
+
+.opciones li a:hover{
+     background: #3187b2;
+}
+
+.imagenB img{
+     width: 1200px;
+}
+
+.cuadro1{
+     background-color: #abdddf;
+     display: flex;
+     justify-content: space-between;
+}
+
+.cuadro2{
+     background-color: white;
+}
+
+.cuadro1, .cuadro2{
+     margin: 25px;
+     padding: 15px;
+     border-radius: 10px;
+}
+
+.cuadros{
+     background-color: #6bb8de;
+     padding: 10px;
+     border-radius: 5px;
+}
+
+.imagen img{
+    height: 350px;
+    border-radius: 5px;
+}
+
+.pregunta{
+     background-color: #369acd;
+     font-size: 20px;
+     margin: 10px;
+     padding: 10px;
+     border-radius: 5px;
+     color: white;
+     
+}
+
+.opciones2 li{
+     list-style: none;
+}
+
+.pregunta:hover{
+     background-color: #3187b2;
+}
+
+.respuesta{
+     background-color: #6bb8de;
+     width: 960px;
+     border-radius: 5px;
+     margin: 10px auto;
+     text-align: center;
+}
+
+.preguntaa{
+     margin: 30px;
+     text-align: center;
+}
+
+.pie{
+     background: #369acd;
+     overflow: hidden;
+     width: 1200px;
+     margin: 0 auto;
+}
+
+.izquierda img{
+     float: left;
+     width: 400px;
+     padding: 20px;
+     margin: 30px;
+}
+
+.derecha{
+    float: right;
+    width: 550px;
+    padding: 20px;
+}
+
+.redes{
+     width: 70px;
+     margin: 8px;
+}
+
+.abajo{
+     color: white;
+     font-size: 13px;
+     padding: 10px;
+}
+
+.siguenos{
+     text-align: center;
+     color: white;
+     padding: 15px 0;
+}
